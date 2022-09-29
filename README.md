@@ -17,8 +17,15 @@ FROM <table_name>;
 ```
 SELECT *
 FROM <table_name>;
+```    
+#### 1.2 选择并去重 select distinct   
+选取*table_name*表中所有不同的*column_name_1*列、*column_name_2*列、...的组合：   
 ```
-#### 1.2 select where   
+SELECT DISTINCT <column_name_1>, <column_name_2>, ...
+FROM <table_name>
+WHERE <condition>;
+```
+#### 1.3 条件筛选 select where   
 从*table_name*表中选取满足条件*condition*的*column_name_1*列，... ：   
 ```
 SELECT <column_name_1>, ...
