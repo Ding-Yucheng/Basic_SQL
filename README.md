@@ -4,7 +4,8 @@ Last update date: 2022/09/30
 
 >**Tips 1**: SQL命令对大小写不敏感。  
 >**Tips 2**: 分号用于分隔不同的语句。某些数据库系统要求在每条 SQL 语句的末端使用分号。    
-### **Select语句**   
+### 1 **Select语句**    
+#### 1.1 基本用法   
 从*table_name*表中选取*column_name_1*列，*column_name_2*列，... ：
 ```
 SELECT <column_name_1>, <column_name_2>, ...
@@ -17,7 +18,7 @@ FROM <table_name>;
 SELECT *
 FROM <table_name>;
 ```
-#### select where   
+#### 1.2 select where   
 从*table_name*表中选取满足条件*condition*的*column_name_1*列，... ：   
 ```
 SELECT <column_name_1>, ...
