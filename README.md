@@ -11,12 +11,13 @@ SELECT <column_name_1>, <column_name_2>, ...
 FROM <table_name>;
 ```
 >**Tips 3**: 同一语句中的不同要素间（如FROM前）可不换行，但换行可读性更佳。   
+ 
 从*table_name*表中选取所有列：   
 ```
 SELECT *
 FROM <table_name>;
 ```
->#### select where   
+#### select where   
 从*table_name*表中选取满足条件*condition*的*column_name_1*列，... ：   
 ```
 SELECT <column_name_1>, ...
